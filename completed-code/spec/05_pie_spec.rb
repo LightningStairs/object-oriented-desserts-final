@@ -1,7 +1,6 @@
 require "spec_helper"
 
 describe Pie do
-
   before :each do
     @sugar= Ingredient.new(1, "tablespoon", "sugar")
     @flour= Ingredient.new(2.5, "cups", "flour")

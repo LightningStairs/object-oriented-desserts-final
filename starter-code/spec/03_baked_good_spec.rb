@@ -1,7 +1,6 @@
 require "spec_helper"
 
 describe BakedGood do
-
   before :each do
     @chocolate= Ingredient.new(1, "pound", "chocolate")
     @cashews= Ingredient.new(0.25, "cups", "cashews")

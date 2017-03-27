@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe BakedGood do
+describe Cookie do
 
   before :each do
     @peanutbutter= Ingredient.new(1, "cup", "peanutbutter")
